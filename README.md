@@ -91,18 +91,18 @@ netflix-clone/
 │   └── favicon.ico
 ├── src/
 │   ├── components/
-│   │   ├── Navbar/
-│   │   ├── Titlecards/
-│   │   ├── Footer/
-│   │   
+│   │   ├── Header/
+│   │   ├── Banner/
+│   │   ├── Row/
+│   │   └── ...
 │   ├── pages/
 │   │   ├── Home/
 │   │   ├── Login/
-│   │   └── Player/
+│   │   └── Profile/
 │   ├── firebase/
 │   │   └── config.js
 │   ├── utils/
-│   ├── App.jsx
+│   ├── App.js
 │   └── index.js
 ├── .env
 ├── package.json
@@ -223,6 +223,24 @@ npm run build
 - Ensure all imports are correctly referenced
 - Run `npm run build` to identify specific build issues
 
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Netflix for design inspiration
+- The Movie Database (TMDb) API for movie data
+- Firebase for backend services
+- React.js community for excellent documentation
 
 ## 📞 Support
 
